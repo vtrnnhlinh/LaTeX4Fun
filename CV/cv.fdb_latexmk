@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1711548726 "/home/vtrnnhlinh/Documents/LaTeX4Fun/CV/cv.tex" "cv.pdf" "cv" 1711548727
+["pdflatex"] 1711646901 "/home/vtrnnhlinh/Documents/LaTeX4Fun/CV/cv.tex" "cv.pdf" "cv" 1711646902
   "/etc/texmf/web2c/texmf.cnf" 1707739927 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/vtrnnhlinh/Documents/LaTeX4Fun/CV/cv.tex" 1711548726 9142 cf366e90e10e9d43e059cd4faae8f2ce ""
+  "/home/vtrnnhlinh/Documents/LaTeX4Fun/CV/cv.tex" 1711646901 9158 bfd63963e1d10e0095e2e85cc9dee835 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc" 1278888116 3104 554211af71f34bcdc3ed0d44a5fba87f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -248,9 +248,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1707755861 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710447713 2800623 51e65c4c907d8396d5709afdfef65ec4 ""
   "avatar.png" 1709124789 253645 2523e88078652767d136a4bff6c0c7d7 ""
-  "cv.aux" 1711548726 1296 e08b3be0b34894e077df26f213fa4ec2 "pdflatex"
-  "cv.out" 1711548726 574 7028c25670fe8a328be8ef96b6ec5a56 "pdflatex"
-  "cv.tex" 1711548726 9142 cf366e90e10e9d43e059cd4faae8f2ce ""
+  "cv.aux" 1711646901 1296 e08b3be0b34894e077df26f213fa4ec2 "pdflatex"
+  "cv.out" 1711646901 574 7028c25670fe8a328be8ef96b6ec5a56 "pdflatex"
+  "cv.tex" 1711646901 9158 bfd63963e1d10e0095e2e85cc9dee835 ""
   (generated)
   "cv.aux"
   "cv.log"
