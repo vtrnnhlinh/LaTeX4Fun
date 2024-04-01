@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  29 MAR 2024 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 APR 2024 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -911,11 +911,11 @@ LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <10> not available
 (Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 220.
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 241.
+(Font)              using `T1/cmr/bx/sc' instead on input line 243.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 255.
+(Font)              using `T1/cmr/bx/sc' instead on input line 257.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -931,13 +931,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  32760 strings out of 478287
  656306 string characters out of 5849289
- 1042902 words of memory out of 5000000
+ 1043904 words of memory out of 5000000
  50376 multiletter control sequences out of 15000+600000
  505146 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,11n,99p,463b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrb1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrb1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrb1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on cv.pdf (1 page, 557215 bytes).
+Output written on cv.pdf (1 page, 557088 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
