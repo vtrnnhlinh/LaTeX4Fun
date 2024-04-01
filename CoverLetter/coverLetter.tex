@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long letter 长安大学版 Chang'an University Version
+% Version 1.0 (2024-01-23)
+
+% This template was revised by Shuaiming Chen(chenshuaiming@chd.edu.com) based on Zheng-hu Nie(brian.nie@gmail.com).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 文档基础配置
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{charter} % Use the Charter font
+\usepackage[utf8]{vietnam}
+\usepackage[
+	a4paper, % Paper size
+	top=1in, % Top margin
+	bottom=1in, % Bottom margin
+	left=1in, % Left margin
+	right=1in, % Right margin
+	%showframe % Uncomment to show frames around the margins for debugging purposes
+]{geometry}
+
+\setlength{\parindent}{0pt} % Paragraph indentation
+\setlength{\parskip}{1em} % Vertical space between paragraphs
+
+\usepackage{graphicx} % Required for including images
+
+\usepackage{fancyhdr} % Required for customizing headers and footers
+
+\fancypagestyle{firstpage}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{0pt} % No header rule
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\fancypagestyle{subsequentpages}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{1pt} % Header rule thickness
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\AtBeginDocument{\thispagestyle{firstpage}} % Use the first page headers/footers style on the first page
+\pagestyle{subsequentpages} % Use the subsequent pages headers/footers style on subsequent pages
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	FIRST PAGE HEADER
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=0.35\textwidth]{bk_name_en.png} % Logo
+
+\vspace{-1em} % Pull the rule closer to the logo
+
+\rule{\linewidth}{1pt} % Horizontal rule
+
+\bigskip\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\hfill
+\begin{tabular}{l @{}}
+\hfill April 2, 2024 \bigskip\\ % Date
+\hfill Võ Trần Nhã Linh \\
+\hfill Email: linh.vo1011@hcmut.edu.vn \\
+\hfill Dorm A, VNU-HCM\\
+\hfill Thu Duc City, Ho Chi Minh City, Vietnam \\ % Address
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+	HPQC Team \\
+	HPCC, HCMUT, VNU-HCM \\
+	268 Ly Thuong Kiet, District 10, Ho Chi Minh City, Vietnam \\
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+Dear HPQC Team Professors,
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+
+
+I am writing to express my interests in joining the High Performance Quantumn Computing (HPQC) Team at HCMUT. I hope to have a chance to work and learn with brilliant minds in the field.
+
+First thing I want to say that my academic profile isn't impressive. I have a pretty low GPA (2.2/4 after 231) and I have no research experience. Honestly, I have to encourage myself a lot to apply because I know I am pretty underqualified for this position. However, I have a dream for Quantumn Computing since high school after watching a video about it on TED-ed. It's also the reason why I choose Computer Engineering major (it was a naive idea, I know). But when entering university, I feel like Quantumn Computing is something very far away from my reach. I have no idea how to start, where to start, and what to do. I was lost, I have to keep the idea in a corner of my heart and choose a more practical path. So in my CV, you can see that I have a focus on IoT and Embedded Systems fields.
+
+When I see the announcement on HPC Lab Page on Facebook, I feel very excited. I love sciences, specifically mathematics and physics. I love the idea to play with quantumn algorithms and pioneering ideas that can reshape Computer Science. The idea of working with limited resources and have a lot of constraints is the reason why I choose IoT and Embedded Systems fields after realizing I couldn't pursue Quantumn Computing. I am not that good but I love challenging problems and discovering things I don't know.
+
+I am willing to learn and work hard to catch up with the team. I have enthusiastic heart, open mind and strong English proficiency. I hope that misters can give me a chance.
+
+\bigskip % Vertical whitespace
+
+Sincerely yours,
+
+Linh
+\vspace{20pt} % Vertical whitespace
+
+Võ Trần Nhã Linh
+
+\end{document}
