@@ -1,0 +1,100 @@
+\documentclass[13pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+\renewcommand\labelitemi{-}
+\usepackage{mathptmx}
+\usetikzlibrary{calc}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage[unicode]{hyperref}
+\hypersetup{urlcolor = blue, linkcolor = black, citecolor = black, colorlinks = true}
+\usepackage{listings}
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{biblatex}
+\addbibresource{bibliography.bib}
+\geometry{a4paper, top=0.5in, bottom=0.5in, left=1in, right=0.2in, includehead, includefoot}
+\title{Internship Report}
+\author{}
+\date{}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[L]
+{
+    \begin{tabular}{rl}
+        \begin{picture}(25, 15)(0, 0)
+            \put(0, -8){\includegraphics[width = 8mm, height = 8mm]{images/hcmut.png}}
+            %\put(0,-8){\epsfig{width=10mm,figure=hcmut.eps}}
+        \end{picture}&
+        %\includegraphics[width=8mm, height=8mm]{hcmut.png} & %
+        \begin{tabular}{l}
+            \footnotesize HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY\\
+            \footnotesize FACULTY OF COMPUTER SCIENCE AND ENGINEERING
+        \end{tabular}
+    \end{tabular}
+}
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{\footnotesize Internship Report} 
+\fancyfoot[R]{\footnotesize Page {\thepage}/\pageref{LastPage}}
+\begin{document}
+\begin{titlepage}
+
+	\begin{tikzpicture}[remember picture,overlay]
+		\draw[line width=0.06in]
+		($(current page.north west) + (1in, -0.5in)$) rectangle
+		($(current page.south east) + (-0.2in, 0.5in)$);
+	\end{tikzpicture}
+	\begin{center}
+		\vspace{-2cm}
+		\fontsize{15}{18}\selectfont
+		\textbf{VIETNAM NATIONAL UNIVERSITY, HCMC}\\
+		\textbf{HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY}\\
+		\textbf{FACULTY OF COMPUTER SCIENCE AND ENGINEERING}\\
+		\vspace{1cm}
+		\includegraphics[width=0.3\textwidth]{images/hcmut.png}\\
+		\vspace{1cm}
+		\fontsize{18}{21}\selectfont
+		\textbf{REPORT}\\
+		\textbf{INTERNSHIP}\\
+		\vspace{0.5cm}
+		\fontsize{15}{18}\selectfont
+		\textbf{SEMESTER 233 ACADEMIC YEAR 2023-2024}\\
+	\end{center}
+
+	\vspace{1cm}
+
+	\begin{itemize}
+		\fontsize{15}{18}\selectfont
+		\item \textbf{MAJOR}: COMPUTER ENGINEERING
+		\item \textbf{PROGRAM}: STANDARD
+		      \vspace{2cm}
+		      \fontsize{15}{18}\selectfont
+		\item \textbf{INTERNSHIP COMPANY}: VIEROBOT COMPANY LIMITED
+		\item \textbf{DIRECT SUPERVISOR AT THE COMPANY}: PHAM SON LOC
+		\item \textbf{SUPERVISOR OF FACULTY}: MEng. HOANG LE HAI THANH
+		\item \textbf{STUDENT}:\\
+		      \textbf{FULLNAME}: VO TRAN NHA LINH. \textbf{ID}: 2111654
+	\end{itemize}
+
+	\vspace{3cm}
+
+	\begin{center}
+		\fontsize{15}{18}\selectfont
+		HO CHI MINH CITY, 08/2024
+	\end{center}
+\end{titlepage}
+\newpage
+\include{acknowledgments}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\include{background_information}
+\include{internship_progress}
+\include{conclusion}
+\printbibliography
+\end{document}
